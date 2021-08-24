@@ -9,6 +9,7 @@ Using forEach:
 
 // The .forEach() method executes a callback function on each of the elements in an array in order.
 groceryList.forEach(groceryItem => {  
-    console.log(groceryItem.name);
+    console.log(`The price for ${groceryItem.name} is ${groceryItem.price}`);
   }); 
+  
 ![image](https://user-images.githubusercontent.com/10427100/130595784-3911d270-9d45-485a-9243-9855eb81c377.png)
