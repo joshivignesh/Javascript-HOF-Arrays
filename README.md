@@ -13,3 +13,15 @@ groceryList.forEach(groceryItem => {
   }); 
   
 ![image](https://user-images.githubusercontent.com/10427100/130595784-3911d270-9d45-485a-9243-9855eb81c377.png)
+
+Using map:
+// The .map() method creates a new array with the results of calling a provided function on 
+//every element in the calling array. What this means is map() calls a provided callback function 
+// once for each element in an array, in order, and constructs a new array from the results.
+
+  const newPrice = groceryList.map(groceryItem => {
+      return {name:groceryItem.name, price:groceryItem.price *2}  
+  }); 
+  console.log(newPrice);
+  
+![image](https://user-images.githubusercontent.com/10427100/130596692-1fffcb43-340e-4c35-8839-98eb097357ee.png)
