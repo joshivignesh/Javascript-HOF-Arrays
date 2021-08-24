@@ -11,5 +11,4 @@ Using forEach:
 groceryList.forEach(groceryItem => {  
     console.log(groceryItem.name);
   }); 
-
-![image](https://user-images.githubusercontent.com/10427100/130594587-3686867a-63cc-42c1-ab79-bb282bdc7f09.png)
+![image](https://user-images.githubusercontent.com/10427100/130595784-3911d270-9d45-485a-9243-9855eb81c377.png)
