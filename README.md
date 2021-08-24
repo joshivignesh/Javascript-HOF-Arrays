@@ -55,3 +55,17 @@ console.log(fruitList);
 
 ![image](https://user-images.githubusercontent.com/10427100/130598017-9cd54c2b-a5a8-464c-b102-3d2a53c530df.png)
 
+
+Using find:
+
+// The find() method returns the value of the first element in the provided array 
+// that satisfies the provided testing function. 
+// If no values satisfy the testing function, undefined is returned.
+
+const result = groceryList.find(groceryItem => {
+    return groceryItem.category === "misc"
+}); 
+console.log(result);
+
+
+![image](https://user-images.githubusercontent.com/10427100/130664791-ab322ce2-21af-48c3-b1de-cb6f43725664.png)
