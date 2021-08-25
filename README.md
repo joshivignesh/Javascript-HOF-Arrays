@@ -69,3 +69,18 @@ console.log(result);
 
 
 ![image](https://user-images.githubusercontent.com/10427100/130664791-ab322ce2-21af-48c3-b1de-cb6f43725664.png)
+
+
+Using some:
+
+//   The some() method tests whether at least one element in the array passes the test 
+//   implemented by the provided function. It returns true if, in the array, 
+//   it finds an element for which the provided function returns true; otherwise it returns false. 
+//   It doesn't modify the array.
+
+const checkPrice = groceryList.some(item => {
+    return item.price > 19
+}); 
+   console.log(checkPrice);
+   
+   ![image](https://user-images.githubusercontent.com/10427100/130815045-b66c8cf3-7177-45a6-9910-352dcc756a8d.png)
