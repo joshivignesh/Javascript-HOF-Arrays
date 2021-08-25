@@ -9,7 +9,7 @@ const groceryList = [
     {name:"Potatoe", price:8, category:"vegetable"},
 ];
 
-// console.log(groceryList);
+//  console.log(groceryList);
 
 // The .forEach() method executes a callback function on each of the elements in an array in order.
 // // groceryList.forEach(groceryItem => {  
@@ -48,5 +48,36 @@ const groceryList = [
 // The default sort order is ascending, built upon converting the elements into strings, 
 // then comparing their sequences of UTF-16 code units values.
 
-const sortedArray = groceryList.sort(); 
-    console.log(sortedArray);
+// console.log(groceryList);
+// // const sortedArray = groceryList.sort((a,b) => {
+// //     return a.name = b.name
+// // }); 
+// //    console.log(sortedArray);
+
+//   The some() method tests whether at least one element in the array passes the test 
+//   implemented by the provided function. It returns true if, in the array, 
+//   it finds an element for which the provided function returns true; otherwise it returns false. 
+//   It doesn't modify the array.
+
+// // // const checkPrice = groceryList.some(item => {
+// // //     return item.price > 19
+// // // }); 
+// // //    console.log(checkPrice);
+
+// The every() method tests whether all elements in the array pass the test implemented 
+// by the provided function. It returns a Boolean value.
+
+// // // const checkPrice = groceryList.every(item => {
+// // //     return item.price > 7
+// // // }); 
+// // //    console.log(checkPrice);
+
+    // The reduce() method executes a reducer function for each value of an array.
+    // reduce() returns a single value which is the function's accumulated result.
+    // reduce() does not execute the function for empty array elements.
+    // reduce() does not change the original array.
+
+    const total = groceryList.reduce((currentValue, item) => {
+        return item.price + currentValue
+    }, initialValue); 
+       console.log(total);
