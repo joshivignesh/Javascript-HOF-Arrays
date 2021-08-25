@@ -91,9 +91,17 @@ const checkPrice = groceryList.some(item => {
    // The every() method tests whether all elements in the array pass the test implemented 
 // by the provided function. It returns a Boolean value.
 
-const checkPrice = groceryList.some(item => {
+const checkPrice = groceryList.every(item => {
     return item.price > 19
 }); 
    console.log(checkPrice);
 
-![image](https://user-images.githubusercontent.com/10427100/130815525-b154b703-e859-47f3-b039-4be00f827a16.png)
+![image](https://user-images.githubusercontent.com/10427100/130815996-1cbb5d9b-43c2-426a-bc6d-3e5445663d66.png)
+
+const checkPrice = groceryList.every(item => {
+    return item.price > 7
+}); 
+   console.log(checkPrice);
+
+![image](https://user-images.githubusercontent.com/10427100/130816147-5f93011c-c860-4d53-87ba-56486a4bb052.png)
+
